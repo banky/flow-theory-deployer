@@ -13,7 +13,7 @@ export const useUsdcxAddress = () => {
     [chainId.rinkeby]: '0x0000000000000000000000000000000000000000',
     [chainId.mainnet]: '0x0000000000000000000000000000000000000000',
     [chainId.optimismGoerli]: '0x0000000000000000000000000000000000000000',
-    [chainId.polygonMumbai]: '0x0000000000000000000000000000000000000000',
+    [chainId.polygonMumbai]: '0x42bb40bF79730451B11f6De1CbA222F17b87Afd7',
   }[chain.id];
 
   if (contractAddress === undefined) {

@@ -226,7 +226,7 @@ const NoLends = ({ openDialog }: { openDialog: VoidFunction }) => {
   }
 
   const getPrimaryButton = () => {
-    if (allowance === 1) {
+    if (allowance === 0) {
       return (
         <PrimaryButton
           onClick={onClickIncreaseAllowance}

@@ -12,8 +12,8 @@ export const useWethAddress = () => {
     [chainId.goerli]: '0x5AF1c2B6275ECE07351Ab808dc54864f0f2747A1',
     [chainId.rinkeby]: '0x0000000000000000000000000000000000000000',
     [chainId.mainnet]: '0x0000000000000000000000000000000000000000',
-    [chainId.optimismGoerli]: '0x0000000000000000000000000000000000000000',
-    [chainId.polygonMumbai]: '0x0000000000000000000000000000000000000000',
+    [chainId.optimismGoerli]: '0xf5Ef6A17B7C39442024d69c320A906C9cC84Dc78',
+    [chainId.polygonMumbai]: '0xdFEC82F5E4aaDFC0F68c9D38ab520DF08AfFaDC1',
   }[chain.id];
 
   if (contractAddress === undefined) {
